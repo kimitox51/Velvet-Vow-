@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handmade Jewelry | Custom Designs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">✧ LUXE HANDMADE</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#custom">Custom Orders</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Exquisite Handmade Jewelry</h1>
+            <p>From our workshop to your collection. Discover the "Making Process."</p>
+            <a href="#shop" class="btn">View Catalog</a>
+        </div>
+    </section>
+
+    <section id="shop" class="catalog">
+        <h2>Product Catalog</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="img-placeholder">Product 1</div>
+                <h3>Gold Leaf Necklace</h3>
+                <p>Hand-forged 18k Gold</p>
+                <span class="price">$350</span>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">Product 2</div>
+                <h3>Minimalist Diamond Ring</h3>
+                <p>Custom Cut Diamond</p>
+                <span class="price">$1,200</span>
+            </div>
+            <div class="product-card">
+                <div class="img-placeholder">Product 3</div>
+                <h3>Silver Dew Earrings</h3>
+                <p>Sterling Silver</p>
+                <span class="price">$150</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="custom" class="inquiry-section">
+        <div class="form-container">
+            <h2>Custom Order Inquiry</h2>
+            <p>Have a specific design in mind? Let's build it together.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <select>
+                    <option>Select Service</option>
+                    <option>Custom Ring Design</option>
+                    <option>Wedding Jewelry</option>
+                    <option>Gift Box Set</option>
+                </select>
+                <textarea placeholder="Tell us about your dream piece..."></textarea>
+                <button type="submit" class="btn">Send Inquiry</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Handmade Jewelry Boutique | SEO: Gift Necklaces, Rings, Handmade</p>
+    </footer>
+
+</body>
+</html>
